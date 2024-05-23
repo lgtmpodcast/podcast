@@ -26,7 +26,7 @@
  * Add font smoothing
  * https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
  */
-body {
+:root {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -75,5 +75,5 @@ p {
  */
 ul {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
 }
