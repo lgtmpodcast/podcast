@@ -1,0 +1,66 @@
+/**
+ * Layout
+ */
+:root {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 20px;
+}
+
+section + section {
+  margin-top: 30px;
+}
+
+li + li {
+  margin-top: 5px;
+}
+
+/**
+ * Typography
+ */
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+/**
+ * Color
+ */
+.swatch {
+  padding: 10px;
+}
+
+/**
+ * Spacing
+ */
+.spacing {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: gray;
+}

@@ -1,0 +1,79 @@
+/**
+ * Inspired by Josh W Comeau's CSS reset with minor tweaks
+ * https://www.joshwcomeau.com/css/custom-css-reset/
+ */
+
+/**
+ * Consistent box-sizing model
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/**
+ * Remove margin from all elements
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+ */
+* {
+  margin: 0;
+}
+
+/**
+ * Consistent line-height
+ * Add font smoothing
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
+ */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Media width responsive to viewport width
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
+ */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/**
+ * Form elements inherit font styles
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/font
+ */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/**
+ * Avoid text overflows
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+/**
+ * Remove default list style
+ * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+ */
+ul {
+  list-style: none;
+  padding: 0;
+}
