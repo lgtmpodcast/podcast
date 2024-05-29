@@ -3,10 +3,19 @@
  */
 :root {
   font-family: sans-serif;
+
+  --lgtm-color-dark: hsl(240 10% 20%);
+  --lgtm-color-light: hsl(240 10% 90%);
+  --lgtm-color-primary: rebeccapurple;
+  --lgtm-color-danger: hsl(360 80% 40%);
+  --lgtm-color-success: hsl(127 71% 40%);
+  --lgtm-color-warning: hsl(45 100% 50%);
 }
 
 body {
   margin: 1rem;
+  background-color: var(--lgtm-color-dark);
+  color: var(--lgtm-color-light);
 }
 
 section + section {

@@ -32,14 +32,42 @@
     <section>
       <h2>Color</h2>
       <ul>
-        <li class="swatch" style="background-color: black; color: white">
-          Black
+        <li class="swatch" style="background-color: var(--lgtm-color-dark)">
+          Dark
         </li>
-        <li class="swatch" style="background-color: gray">Gray</li>
-        <li class="swatch" style="background-color: blue">Blue</li>
-        <li class="swatch" style="background-color: red">Red</li>
-        <li class="swatch" style="background-color: green">Green</li>
-        <li class="swatch" style="background-color: yellow">Yellow</li>
+        <li
+          class="swatch"
+          style="
+            background-color: var(--lgtm-color-light);
+            color: var(--lgtm-color-dark);
+          "
+        >
+          Light
+        </li>
+        <li class="swatch" style="background-color: var(--lgtm-color-primary)">
+          Primary
+        </li>
+        <li class="swatch" style="background-color: var(--lgtm-color-danger)">
+          Danger
+        </li>
+        <li
+          class="swatch"
+          style="
+            background-color: var(--lgtm-color-success);
+            color: var(--lgtm-color-dark);
+          "
+        >
+          Success
+        </li>
+        <li
+          class="swatch"
+          style="
+            background-color: var(--lgtm-color-warning);
+            color: var(--lgtm-color-dark);
+          "
+        >
+          Warning
+        </li>
       </ul>
     </section>
 
