@@ -1,0 +1,39 @@
+:root {
+  /**
+   * Typography
+   */
+  --lgtm-typography-h1: bold 2.5rem sans-serif;
+  --lgtm-typography-h2: bold 2rem sans-serif;
+  --lgtm-typography-h3: 500 1.75rem sans-serif;
+  --lgtm-typography-h4: bold 1.5rem sans-serif;
+  --lgtm-typography-h5: bold 1.25rem sans-serif;
+  --lgtm-typography-h6: bold 1rem sans-serif;
+  --lgtm-typography-p: 1rem sans-serif;
+
+  /**
+   * Color
+   */
+  --lgtm-color-dark: hsl(240 10% 20%);
+  --lgtm-color-light: hsl(240 10% 90%);
+  --lgtm-color-action: rebeccapurple;
+  --lgtm-color-danger: hsl(360 80% 40%);
+  --lgtm-color-success: hsl(127 71% 40%);
+  --lgtm-color-warning: hsl(45 100% 50%);
+
+  /**
+   * Space
+   */
+  --lgtm-space-2: 0.125rem;
+  --lgtm-space-4: 0.25rem;
+  --lgtm-space-8: 0.5rem;
+  --lgtm-space-12: 0.75rem;
+  --lgtm-space-16: 1rem;
+  --lgtm-space-20: 1.25rem;
+  --lgtm-space-24: 1.5rem;
+  --lgtm-space-28: 1.75rem;
+  --lgtm-space-32: 2rem;
+  --lgtm-space-40: 2.5rem;
+  --lgtm-space-48: 3rem;
+  --lgtm-space-64: 4rem;
+  --lgtm-space-80: 5rem;
+}
