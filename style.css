@@ -10,8 +10,8 @@
 
 body {
   margin: 1rem;
-  background-color: var(--lgtm-color-dark);
-  color: var(--lgtm-color-light);
+  background-color: var(--lgtm-color-background);
+  color: var(--lgtm-color-text-body);
 }
 
 section + section {
@@ -26,26 +26,32 @@ li + li {
  * Typography
  */
 h1 {
+  color: var(--lgtm-color-text-heading);
   font: var(--lgtm-typography-h1);
 }
 
 h2 {
+  color: var(--lgtm-color-text-heading);
   font: var(--lgtm-typography-h2);
 }
 
 h3 {
+  color: var(--lgtm-color-text-heading);
   font: var(--lgtm-typography-h3);
 }
 
 h4 {
+  color: var(--lgtm-color-text-heading);
   font: var(--lgtm-typography-h4);
 }
 
 h5 {
+  color: var(--lgtm-color-text-heading);
   font: var(--lgtm-typography-h5);
 }
 
 h6 {
+  color: var(--lgtm-color-text-heading);
   font: var(--lgtm-typography-h6);
 }
 
@@ -68,4 +74,15 @@ p {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   background-color: gray;
+}
+
+/**
+ * Utility
+ */
+.text-light {
+  color: var(--lgtm-color-neutral-100);
+}
+
+.text-dark {
+  color: var(--lgtm-color-neutral-900);
 }
