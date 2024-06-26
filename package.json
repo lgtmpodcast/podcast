@@ -12,9 +12,11 @@
     "url": "git+https://github.com/lgtmpodcast/podcast.git"
   },
   "scripts": {
+    "tokens": "node ./build_tokens.js",
     "start": "http-server"
   },
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "style-dictionary": "^3.9.2"
   }
 }
