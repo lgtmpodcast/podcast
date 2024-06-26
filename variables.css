@@ -27,7 +27,7 @@
 
   --lgtm-color-background: var(--lgtm-color-neutral-900);
   --lgtm-color-text-heading: var(--lgtm-color-neutral-100);
-  --lgtm-color-text-body: var(--lgtm-color-neutral-600);
+  --lgtm-color-text-body: var(--lgtm-color-neutral-400);
 
   /**
    * Space
@@ -51,6 +51,6 @@
   :root {
     --lgtm-color-background: var(--lgtm-color-neutral-100);
     --lgtm-color-text-heading: var(--lgtm-color-neutral-900);
-    --lgtm-color-text-subtle: var(--lgtm-color-neutral-600);
+    --lgtm-color-text-body: var(--lgtm-color-neutral-600);
   }
 }
