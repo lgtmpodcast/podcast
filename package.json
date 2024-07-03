@@ -2,6 +2,7 @@
   "name": "lgtmpodcast",
   "version": "1.4.2",
   "description": "",
+  "type": "module",
   "license": "MIT",
   "homepage": "https://github.com/lgtmpodcast/podcast#readme",
   "bugs": {
@@ -12,9 +13,13 @@
     "url": "git+https://github.com/lgtmpodcast/podcast.git"
   },
   "scripts": {
-    "start": "http-server"
+    "start": "http-server",
+    "build-tokens": "node ./scripts/build-tokens.js"
   },
   "dependencies": {
     "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.9.2"
   }
 }
