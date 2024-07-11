@@ -1,11 +1,5 @@
-@import 'reset.css';
+@import url('reset.css');
 
-/**
- * Layout
- */
-:root {
-  font-family: sans-serif;
-}
 
 body {
   margin: 1rem;
@@ -63,6 +57,7 @@ p {
  */
 .swatch {
   padding: 0.5rem;
+  margin: var(--something-that-dont-exist)
 }
 
 /**
