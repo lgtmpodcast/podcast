@@ -27,6 +27,8 @@
  * https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
  */
 :root {
+  /* stylelint-disable-next-line @lgtm-org/stylelint-use-font-property */
+  font-family: sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -76,4 +78,10 @@ p {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+
+
+.some-heading {
+  font: var(--lgtm-typography-h1);
 }

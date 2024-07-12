@@ -1,0 +1,40 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 30 Jun 2024 13:32:36 GMT
+ */
+
+export default {
+  '--lgtm-color-warning': 'hsl(45deg 100% 50%)',
+  '--lgtm-color-success': 'hsl(127deg 71% 40%)',
+  '--lgtm-color-danger': 'hsl(360deg 80% 40%)',
+  '--lgtm-color-action': 'rebeccapurple',
+  '--lgtm-color-neutral-900': 'hsl(240deg 10% 10%)',
+  '--lgtm-color-neutral-600': 'hsl(240deg 10% 40%)',
+  '--lgtm-color-neutral-500': 'hsl(240deg 10% 50%)',
+  '--lgtm-color-neutral-400': 'hsl(240deg 10% 60%)',
+  '--lgtm-color-neutral-100': 'hsl(240deg 10% 90%)',
+  '--lgtm-space-1000': '5rem',
+  '--lgtm-space-800': '4rem',
+  '--lgtm-space-600': '3rem',
+  '--lgtm-space-500': '2.5rem',
+  '--lgtm-space-400': '2rem',
+  '--lgtm-space-350': '1.75rem',
+  '--lgtm-space-300': '1.5rem',
+  '--lgtm-space-250': '1.25rem',
+  '--lgtm-space-200': '1rem',
+  '--lgtm-space-150': '0.75rem',
+  '--lgtm-space-100': '0.5rem',
+  '--lgtm-space-50': '0.25rem',
+  '--lgtm-space-25': '0.125rem',
+  '--lgtm-typography-p': '1rem sans-serif',
+  '--lgtm-typography-h6': 'bold 1rem sans-serif',
+  '--lgtm-typography-h5': 'bold 1.25rem sans-serif',
+  '--lgtm-typography-h4': 'bold 1.5rem sans-serif',
+  '--lgtm-typography-h3': '500 1.75rem sans-serif',
+  '--lgtm-typography-h2': 'bold 2rem sans-serif',
+  '--lgtm-typography-h1': 'bold 2.5rem sans-serif',
+  '--lgtm-color-text-body': 'var(--lgtm-color-neutral-600)',
+  '--lgtm-color-text-heading': 'var(--lgtm-color-neutral-900)',
+  '--lgtm-color-background': 'var(--lgtm-color-neutral-100)',
+  '--lgtm-color-subtle': 'var(--lgtm-color-neutral-400)',
+}

@@ -4,15 +4,15 @@
  */
 
 :root {
-  --lgtm-color-warning: hsl(45 100% 50%);
-  --lgtm-color-success: hsl(127 71% 40%);
-  --lgtm-color-danger: hsl(360 80% 40%);
+  --lgtm-color-warning: hsl(45deg 100% 50%);
+  --lgtm-color-success: hsl(127deg 71% 40%);
+  --lgtm-color-danger: hsl(360deg 80% 40%);
   --lgtm-color-action: rebeccapurple;
-  --lgtm-color-neutral-900: hsl(240 10% 10%);
-  --lgtm-color-neutral-600: hsl(240 10% 40%);
-  --lgtm-color-neutral-500: hsl(240 10% 50%);
-  --lgtm-color-neutral-400: hsl(240 10% 60%);
-  --lgtm-color-neutral-100: hsl(240 10% 90%);
+  --lgtm-color-neutral-900: hsl(240deg 10% 10%);
+  --lgtm-color-neutral-600: hsl(240deg 10% 40%);
+  --lgtm-color-neutral-500: hsl(240deg 10% 50%);
+  --lgtm-color-neutral-400: hsl(240deg 10% 60%);
+  --lgtm-color-neutral-100: hsl(240deg 10% 90%);
   --lgtm-space-1000: 5rem;
   --lgtm-space-800: 4rem;
   --lgtm-space-600: 3rem;
